@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FAF8F5;
+    background-image: 
+      radial-gradient(at 15% 15%, rgba(181, 199, 179, 0.25) 0px, transparent 50%),
+      radial-gradient(at 85% 80%, rgba(213, 186, 155, 0.20) 0px, transparent 50%),
+      radial-gradient(at 50% 50%, rgba(220, 236, 226, 0.20) 0px, transparent 65%);
+    background-attachment: fixed;
+    color: #1A2820;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4ECD9;
+}
+::-webkit-scrollbar-thumb {
+  background: #B5C7B3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #758F73;
+}
+
+/* Glass & Nature card effects */
+.glass-nature {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(181, 199, 179, 0.45);
+}
+
+.glass-nature-dark {
+  background: rgba(28, 57, 43, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(100, 164, 126, 0.35);
+}
+
+.nature-border {
+  border: 1px solid rgba(146, 171, 144, 0.3);
+}
+
+.earth-gradient-text {
+  background: linear-gradient(135deg, #1C392B 0%, #2F6B4A 60%, #5C735A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
