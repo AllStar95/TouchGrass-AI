@@ -1,7 +1,5 @@
 # 🌱 TouchGrass AI
 
-> **Hacktoberfest 2026 Week 1 "Touch Grass" Challenge Entry**  
-> Challenge prompt: [https://dev.to/challenges/hacktoberfest-week1-2026-10-05](https://dev.to/challenges/hacktoberfest-week1-2026-10-05)  
 > *Break the digital scroll loop and reconnect with the outdoors through genuine, on-device AI.*
 
 ---
